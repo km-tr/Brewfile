@@ -1,44 +1,6 @@
 
 # tap repositories and their packages
 
-tap caskroom/cask
-cask 1password
-cask adobe-creative-cloud
-cask alfred
-cask appcleaner
-cask atom
-cask bettertouchtool
-cask brackets
-cask caffeine
-cask cheatsheet
-cask clipy
-cask copy
-cask dropbox
-cask duet
-cask firefox
-cask flux
-cask google-chrome
-cask google-japanese-ime
-cask intellij-idea
-cask iterm2
-cask karabiner
-cask kindle
-cask leap-motion
-cask sequel-pro
-cask skype
-cask slicy
-cask sourcetree
-cask spotify-notifications
-cask spotify
-cask startninja
-cask tunnelbear
-cask tunnelblick
-cask vagrant-manager
-cask vagrant
-cask virtualbox
-cask visual-studio-code
-cask xscope
-
 tap caskroom/versions
 cask google-chrome-canary
 cask sublime-text3
@@ -115,6 +77,39 @@ brew zeromq
 brew zsh
 brew zsh-completions
 brew zsh-syntax-highlighting
+
+# Cask applications
+cask 1password
+cask adobe-creative-cloud
+cask alfred
+cask appcleaner
+cask atom
+cask bettertouchtool
+cask brackets
+cask caffeine
+cask cheatsheet
+cask clipy
+cask copy
+cask dropbox
+cask duet
+cask firefox
+cask flux
+cask google-chrome
+cask google-japanese-ime
+cask intellij-idea
+cask iterm2
+cask karabiner
+cask kindle
+cask leap-motion
+cask sequel-pro
+cask skype
+cask spotify-notifications
+cask spotify
+cask startninja
+cask vagrant-manager
+cask vagrant
+cask virtualbox
+cask visual-studio-code
 
 # App Store applications
 appstore Battery Monitor
