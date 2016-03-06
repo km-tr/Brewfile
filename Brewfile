@@ -1,84 +1,7 @@
 
 # tap repositories and their packages
 
-tap caskroom/versions
-cask google-chrome-canary
-cask sublime-text3
-
-tap homebrew/binary
-
-tap homebrew/dupes
-brew apple-gcc42
-
-tap homebrew/php
-brew phplint
-
-tap homebrew/versions
-
-tap rcmdnk/file
-brew brew-file
-
-tap sanemat/font
-brew ricty --powerline --vim-powerline
-
-# Other Homebrew packages
-brew ansible
-brew autoconf
-brew automake
-brew boost
-brew cairo
-brew ctags
-brew czmq
-brew fontconfig
-brew fontforge
-brew freetype
-brew gawk
-brew gdbm
-brew gettext
-brew git
-brew glib
-brew go
-brew gobject-introspection
-brew harfbuzz
-brew icu4c
-brew jpeg
-brew libevent
-brew libffi
-brew libpng
-brew libsodium
-brew libtiff
-brew libtool
-brew libyaml
-brew mercurial
-brew mysql
-brew nodebrew
-brew openssl
-brew ossp-uuid
-brew pango
-brew pcre
-brew peco
-brew pixman
-brew pkg-config
-brew pyenv
-brew pyenv-virtualenv
-brew python
-brew python3
-brew rbenv
-brew rbenv-default-gems
-brew rbenv-gemset
-brew readline
-brew redis
-brew ruby-build
-brew sqlite
-brew tmux
-brew wget
-brew xz
-brew zeromq
-brew zsh
-brew zsh-completions
-brew zsh-syntax-highlighting
-
-# Cask applications
+tap caskroom/cask
 cask 1password
 cask adobe-creative-cloud
 cask alfred
@@ -110,6 +33,83 @@ cask vagrant-manager
 cask vagrant
 cask virtualbox
 cask visual-studio-code
+
+tap caskroom/versions
+cask google-chrome-canary
+cask sublime-text3
+
+tap homebrew/binary
+
+tap homebrew/dupes
+brew apple-gcc42
+
+tap homebrew/php
+
+tap homebrew/versions
+
+tap neovim/neovim
+brew neovim
+
+tap railwaycat/homebrew-emacsmacport
+
+tap railwaycat/homebrew-emacsmacport
+
+tap rcmdnk/file
+brew brew-file
+
+tap sanemat/font
+brew ricty --powerline --vim-powerline
+
+# Other Homebrew packages
+brew ansible
+brew autoconf
+brew automake
+brew boost
+brew cairo
+brew ctags
+brew czmq
+brew emacs-mac --with-spacemacs-icon
+brew fontconfig
+brew fontforge
+brew freetype
+brew gawk
+brew gdbm
+brew gettext
+brew git
+brew glib
+brew go
+brew gobject-introspection
+brew harfbuzz
+brew icu4c
+brew jpeg
+brew libevent
+brew libffi
+brew libpng
+brew libsodium
+brew libtiff
+brew libtool
+brew libyaml
+brew mercurial
+brew mysql
+brew openssl
+brew ossp-uuid
+brew pango
+brew pcre
+brew peco
+brew pixman
+brew pkg-config
+brew readline
+brew reattach-to-user-namespace
+brew redis
+brew rust
+brew sqlite
+brew tmux
+brew wget
+brew xz
+brew zeromq
+brew zsh
+brew zsh-completions
+brew zsh-syntax-highlighting
 
 # App Store applications
 appstore Battery Monitor
