@@ -5,109 +5,142 @@ tap argon/mas
 brew mas
 
 tap caskroom/cask
+cask adobe-creative-cloud
 cask alfred
 cask appcleaner
 cask bettertouchtool
 cask bitbar
-cask cheatsheet
+cask boostnote
 cask clipy
+cask dash
 cask dropbox
 cask flux
+cask gitify
+cask google-chrome
+cask google-drive
 cask google-japanese-ime
+cask gyazo
+cask hyperterm
 cask intellij-idea
 cask iterm2
 cask karabiner
+cask rambox
+cask seil
 cask spotify
+cask thunderbird
 cask vagrant-manager
 cask vagrant
 cask virtualbox
 cask visual-studio-code
-cask vlc
 
 tap caskroom/versions
+cask firefoxdeveloperedition
 cask google-chrome-canary
 
-tap homebrew/binary
+tap homebrew/bundle
 
 tap homebrew/core
-brew ansible
 brew autoconf
 brew automake
-brew boost
+brew awscli
 brew cairo
 brew cmake
-brew ctags
 brew czmq
-brew flex
+brew diff-so-fancy
+brew fish
 brew fontconfig
 brew fontforge
 brew freetype
-brew gawk
 brew gdbm
 brew gettext
 brew git
 brew glib
-brew gmp
 brew go
 brew gobject-introspection
+brew google-sparsehash
+brew gperftools
 brew harfbuzz
 brew haskell-stack
+brew hr
+brew hub
 brew icu4c
+brew ios-webkit-debug-proxy
 brew jpeg
 brew libevent
 brew libffi
+brew libimobiledevice
+brew libplist
 brew libpng
 brew libsodium
-brew libssh2
+brew libtasn1
 brew libtiff
 brew libtool
+brew libusb
+brew libxml2
 brew libyaml
+brew mecab
 brew mercurial
-brew mpfr
-brew mysql
+brew nkf
+brew oniguruma
 brew openssl
-brew ossp-uuid
 brew pango
 brew pcre
+brew pcre2
 brew peco
 brew pixman
 brew pkg-config
-brew re2c
+brew pyenv
+brew pyenv-virtualenv
+brew python
+brew qt5
 brew readline
 brew reattach-to-user-namespace
-brew redis
-brew rust
 brew sqlite
+brew the_platinum_searcher
+brew tidy-html5
 brew tig
 brew tmux
+brew tree
 brew unixodbc
+brew usbmuxd
 brew wget
 brew xz
 brew zeromq
-brew zsh-completions
-brew zsh-syntax-highlighting
 brew zsh
 
 tap homebrew/dupes
-brew apple-gcc42
-brew zlib
 
 tap homebrew/php
+brew composer
+brew php70
+brew php70-xdebug
 
-tap homebrew/versions
-brew bison27
-
-tap neovim/neovim
-brew neovim
-
-tap railwaycat/emacsmacport
-brew emacs-mac --with-spacemacs-icon
+tap homebrew/science
+brew htslib
+brew stacks
 
 tap rcmdnk/file
 brew brew-file
 
+tap rcmdnk/rcmdnkpac
+
 tap sanemat/font
 brew ricty --powerline --vim-powerline
 
+tap tkengo/highway
+brew highway
+
+tap vitorgalvao/tiny-scripts
+brew cask-repair
+
 # App Store applications
-appstore No installed apps found
+appstore 682658836 GarageBand
+appstore 409183694 Keynote
+appstore 896624060 Kobito
+appstore 748212890 Memory Monitor
+appstore 409203825 Numbers
+appstore 409201541 Pages
+appstore 568494494 Pocket
+appstore 557168941 Tweetbot
+appstore 497799835 Xcode
+appstore 408981434 iMovie
