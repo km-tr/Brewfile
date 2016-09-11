@@ -53,6 +53,7 @@ brew fontforge
 brew freetype
 brew gdbm
 brew gettext
+brew ghq
 brew git
 brew glib
 brew go
@@ -119,6 +120,9 @@ tap homebrew/science
 brew htslib
 brew stacks
 
+tap neovim/neovim
+brew neovim
+
 tap rcmdnk/file
 brew brew-file
 
@@ -134,13 +138,6 @@ tap vitorgalvao/tiny-scripts
 brew cask-repair
 
 # App Store applications
-appstore 682658836 GarageBand
-appstore 409183694 Keynote
-appstore 896624060 Kobito
 appstore 748212890 Memory Monitor
-appstore 409203825 Numbers
-appstore 409201541 Pages
 appstore 568494494 Pocket
 appstore 557168941 Tweetbot
-appstore 497799835 Xcode
-appstore 408981434 iMovie
