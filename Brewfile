@@ -24,6 +24,7 @@ cask hyperterm
 cask intellij-idea
 cask iterm2
 cask karabiner
+cask pilemd
 cask rambox
 cask seil
 cask spotify
