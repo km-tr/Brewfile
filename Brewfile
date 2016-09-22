@@ -47,6 +47,7 @@ brew cairo
 brew cmake
 brew czmq
 brew diff-so-fancy
+brew doxygen
 brew fish
 brew fontconfig
 brew fontforge
