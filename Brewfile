@@ -20,7 +20,6 @@ cask google-chrome
 cask google-drive
 cask google-japanese-ime
 cask gyazo
-cask hyperterm
 cask intellij-idea
 cask iterm2
 cask karabiner
@@ -98,6 +97,7 @@ brew python
 brew qt5
 brew readline
 brew reattach-to-user-namespace
+brew ripgrep
 brew sqlite
 brew the_platinum_searcher
 brew tidy-html5
@@ -138,9 +138,6 @@ brew highway
 
 tap vitorgalvao/tiny-scripts
 brew cask-repair
-
-## Direct install
-brew ripgrep
 
 # App Store applications
 appstore 682658836 GarageBand (10.1.2)
