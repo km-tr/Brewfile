@@ -20,11 +20,13 @@ cask google-chrome
 cask google-drive
 cask google-japanese-ime
 cask gyazo
+cask hyper
 cask intellij-idea
 cask iterm2
 cask karabiner
 cask pilemd
 cask rambox
+cask screencast
 cask seil
 cask spotify
 cask thunderbird
@@ -52,6 +54,7 @@ brew fish
 brew fontconfig
 brew fontforge
 brew freetype
+brew fzf
 brew gdbm
 brew gettext
 brew ghq
@@ -68,6 +71,7 @@ brew hub
 brew icu4c
 brew ios-webkit-debug-proxy
 brew jpeg
+brew jq
 brew libevent
 brew libffi
 brew libimobiledevice
@@ -82,6 +86,7 @@ brew libxml2
 brew libyaml
 brew mecab
 brew mercurial
+brew micro
 brew nkf
 brew oniguruma
 brew openssl
@@ -106,9 +111,11 @@ brew tmux
 brew tree
 brew unixodbc
 brew usbmuxd
+brew utf8proc
 brew wget
 brew xz
 brew zeromq
+brew zplug
 brew zsh
 
 tap homebrew/dupes
