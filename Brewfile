@@ -30,6 +30,7 @@ cask screencast
 cask seil
 cask spotify
 cask thunderbird
+cask unity
 cask vagrant-manager
 cask vagrant
 cask virtualbox
