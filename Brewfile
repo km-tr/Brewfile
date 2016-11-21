@@ -24,6 +24,7 @@ cask iterm2
 cask rambox
 cask screencast
 cask spotify
+cask unity
 cask vagrant-manager
 cask vagrant
 cask virtualbox
