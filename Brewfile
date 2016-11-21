@@ -19,7 +19,6 @@ cask gitify
 cask google-chrome
 cask google-drive
 cask google-japanese-ime
-cask gyazo
 cask hyper
 cask intellij-idea
 cask iterm2
@@ -148,12 +147,13 @@ brew cask-repair
 
 # App Store applications
 appstore 682658836 GarageBand (10.1.2)
-appstore 409183694 Keynote (6.6.2)
-appstore 896624060 Kobito (2.3.7)
+appstore 409183694 Keynote (7.0.5)
 appstore 748212890 Memory Monitor (2.3)
-appstore 409203825 Numbers (3.6.2)
-appstore 409201541 Pages (5.6.1)
+appstore 409203825 Numbers (4.0.5)
+appstore 409201541 Pages (6.0.5)
 appstore 568494494 Pocket (1.6.2)
 appstore 557168941 Tweetbot (2.4.1)
 appstore 497799835 Xcode (7.3.1)
-appstore 408981434 iMovie (10.1.2)
+appstore 408981434 iMovie (10.1.3)
+
+# Other commands
