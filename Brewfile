@@ -10,7 +10,6 @@ cask alfred
 cask appcleaner
 cask bettertouchtool
 cask bitbar
-cask boostnote
 cask clipy
 cask dash
 cask dropbox
@@ -22,13 +21,9 @@ cask google-japanese-ime
 cask hyper
 cask intellij-idea
 cask iterm2
-cask karabiner
-cask pilemd
 cask rambox
 cask screencast
-cask seil
 cask spotify
-cask thunderbird
 cask vagrant-manager
 cask vagrant
 cask virtualbox
@@ -155,5 +150,3 @@ appstore 568494494 Pocket (1.6.2)
 appstore 557168941 Tweetbot (2.4.1)
 appstore 497799835 Xcode (7.3.1)
 appstore 408981434 iMovie (10.1.3)
-
-# Other commands
