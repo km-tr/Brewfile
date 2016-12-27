@@ -15,6 +15,7 @@ cask cmd-eikana
 cask dash
 cask dropbox
 cask flux
+cask franz
 cask genymotion
 cask gitify
 cask google-chrome
