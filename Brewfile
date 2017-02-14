@@ -37,6 +37,9 @@ tap caskroom/versions
 cask firefoxdeveloperedition
 cask google-chrome-canary
 
+tap dart-lang/dart
+brew dart --with-content-shell --with-dartium
+
 tap homebrew/bundle
 
 tap homebrew/core
@@ -67,6 +70,8 @@ brew haskell-stack
 brew hr
 brew hub
 brew icu4c
+brew ideviceinstaller
+brew ios-deploy
 brew ios-webkit-debug-proxy
 brew jemalloc
 brew jpeg
@@ -86,6 +91,7 @@ brew libuv
 brew libvterm
 brew libxml2
 brew libyaml
+brew libzip
 brew mecab
 brew mercurial
 brew micro
@@ -105,6 +111,7 @@ brew python
 brew qt5
 brew readline
 brew reattach-to-user-namespace
+brew rename
 brew ripgrep
 brew sqlite
 brew the_platinum_searcher
