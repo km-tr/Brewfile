@@ -7,6 +7,7 @@ brew mas
 tap caskroom/cask
 cask adobe-creative-cloud
 cask alfred
+cask android-studio
 cask appcleaner
 cask bettertouchtool
 cask bitbar
@@ -25,7 +26,7 @@ cask hyper
 cask intellij-idea
 cask iterm2
 cask licecap
-cask rambox
+cask opera-neon
 cask spotify
 cask unity
 cask vagrant-manager
@@ -49,7 +50,6 @@ brew awscli
 brew cairo
 brew cmake
 brew czmq
-brew diff-so-fancy
 brew doxygen
 brew fish
 brew fontconfig
@@ -97,6 +97,7 @@ brew mercurial
 brew micro
 brew msgpack
 brew nkf
+brew node
 brew oniguruma
 brew openssl
 brew pango
@@ -149,7 +150,7 @@ brew brew-file
 tap rcmdnk/rcmdnkpac
 
 tap sanemat/font
-brew ricty --powerline --vim-powerline
+brew ricty --vim-powerline --with-powerline
 
 tap tkengo/highway
 brew highway
@@ -158,14 +159,14 @@ tap vitorgalvao/tiny-scripts
 brew cask-repair
 
 # App Store applications
-appstore 682658836 GarageBand (10.1.4)
+appstore 682658836 GarageBand (10.1.5)
+appstore 408981434 iMovie (10.1.4)
 appstore 409183694 Keynote (7.0.5)
 appstore 896624060 Kobito (2.3.8)
-appstore 748212890 Memory Cleaner (2.3.2)
+appstore 748212890 Memory Cleaner (2.3.3)
 appstore 409203825 Numbers (4.0.5)
 appstore 409201541 Pages (6.0.5)
 appstore 568494494 Pocket (1.6.2)
 appstore 866773894 Quiver (3.0.3)
-appstore 557168941 Tweetbot (2.4.5)
-appstore 497799835 Xcode (8.2)
-appstore 408981434 iMovie (10.1.4)
+appstore 557168941 Tweetbot (2.4.6)
+appstore 497799835 Xcode (8.2.1)
