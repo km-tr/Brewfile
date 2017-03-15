@@ -97,7 +97,6 @@ brew mercurial
 brew micro
 brew msgpack
 brew nkf
-brew node
 brew oniguruma
 brew openssl
 brew pango
