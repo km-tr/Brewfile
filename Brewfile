@@ -39,7 +39,6 @@ cask firefoxdeveloperedition
 cask google-chrome-canary
 
 tap dart-lang/dart
-brew dart --with-content-shell --with-dartium
 
 tap homebrew/bundle
 
@@ -157,6 +156,7 @@ tap vitorgalvao/tiny-scripts
 brew cask-repair
 
 # Other Homebrew packages
+brew dart --with-content-shell --with-dartium
 brew qt5
 
 # App Store applications
