@@ -102,7 +102,6 @@ brew pkg-config
 brew pyenv
 brew pyenv-virtualenv
 brew python
-brew qt5
 brew readline
 brew reattach-to-user-namespace
 brew ripgrep
@@ -149,6 +148,9 @@ brew highway
 
 tap vitorgalvao/tiny-scripts
 brew cask-repair
+
+# Other Homebrew packages
+brew qt5
 
 # App Store applications
 appstore 682658836 GarageBand (10.1.4)
