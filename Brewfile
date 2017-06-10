@@ -7,7 +7,6 @@ brew mas
 tap caskroom/cask
 cask adobe-creative-cloud
 cask alfred
-cask android-studio
 cask appcleaner
 cask bettertouchtool
 cask bitbar
@@ -17,16 +16,17 @@ cask dash
 cask dropbox
 cask flux
 cask franz
-cask genymotion
 cask gitify
 cask google-chrome
 cask google-drive
 cask google-japanese-ime
+cask gyazo
 cask hyper
 cask intellij-idea
 cask iterm2
-cask licecap
-cask opera-neon
+cask karabiner
+cask screencast
+cask seil
 cask spotify
 cask unity
 cask vagrant-manager
@@ -35,10 +35,9 @@ cask virtualbox
 cask visual-studio-code
 
 tap caskroom/versions
-cask firefoxdeveloperedition
 cask google-chrome-canary
 
-tap dart-lang/dart
+tap crazymykl/custom
 
 tap homebrew/bundle
 
@@ -49,6 +48,7 @@ brew awscli
 brew cairo
 brew cmake
 brew czmq
+brew diff-so-fancy
 brew doxygen
 brew fish
 brew fontconfig
@@ -69,8 +69,7 @@ brew haskell-stack
 brew hr
 brew hub
 brew icu4c
-brew ideviceinstaller
-brew ios-deploy
+brew imagemagick@6
 brew ios-webkit-debug-proxy
 brew jemalloc
 brew jpeg
@@ -90,14 +89,16 @@ brew libuv
 brew libvterm
 brew libxml2
 brew libyaml
-brew libzip
 brew mecab
 brew mercurial
 brew micro
+brew mono
 brew msgpack
+brew mysql
 brew nkf
 brew oniguruma
 brew openssl
+brew openssl@1.1
 brew pango
 brew pcre
 brew pcre2
@@ -107,10 +108,11 @@ brew pkg-config
 brew pyenv
 brew pyenv-virtualenv
 brew python
+brew qt
 brew readline
 brew reattach-to-user-namespace
-brew rename
 brew ripgrep
+brew ruby-build
 brew sqlite
 brew the_platinum_searcher
 brew tidy-html5
@@ -121,6 +123,7 @@ brew unibilium
 brew unixodbc
 brew usbmuxd
 brew utf8proc
+brew watchman
 brew wget
 brew xz
 brew zeromq
@@ -138,6 +141,8 @@ tap homebrew/science
 brew htslib
 brew stacks
 
+tap homebrew/services
+
 tap neovim/neovim
 brew neovim
 
@@ -147,7 +152,7 @@ brew brew-file
 tap rcmdnk/rcmdnkpac
 
 tap sanemat/font
-brew ricty --vim-powerline --with-powerline
+brew ricty --with-powerline
 
 tap tkengo/highway
 brew highway
@@ -155,19 +160,10 @@ brew highway
 tap vitorgalvao/tiny-scripts
 brew cask-repair
 
-# Other Homebrew packages
-brew dart --with-content-shell --with-dartium
-brew qt5
-
 # App Store applications
-appstore 682658836 GarageBand (10.1.5)
-appstore 408981434 iMovie (10.1.4)
-appstore 409183694 Keynote (7.0.5)
-appstore 896624060 Kobito (2.3.8)
-appstore 748212890 Memory Cleaner (2.3.3)
-appstore 409203825 Numbers (4.0.5)
-appstore 409201541 Pages (6.0.5)
+appstore 682658836 GarageBand (10.2.0)
+appstore 748212890 Memory Cleaner (2.4)
+appstore 823766827 OneDrive (17.3.6798)
 appstore 568494494 Pocket (1.6.2)
-appstore 866773894 Quiver (3.0.3)
-appstore 557168941 Tweetbot (2.4.6)
-appstore 497799835 Xcode (8.2.1)
+appstore 866773894 Quiver (3.0.6)
+appstore 557168941 Tweetbot (2.5.1)
