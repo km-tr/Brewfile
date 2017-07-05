@@ -27,6 +27,8 @@ cask intellij-idea
 cask iterm2
 cask licecap
 cask opera-neon
+cask sketch
+cask skype
 cask spotify
 cask unity
 cask vagrant-manager
@@ -44,6 +46,7 @@ brew dart --with-content-shell --with-dartium
 tap homebrew/bundle
 
 tap homebrew/core
+brew ansible
 brew autoconf
 brew automake
 brew awscli
@@ -55,7 +58,9 @@ brew fish
 brew fontconfig
 brew fontforge
 brew freetype
+brew fswatch
 brew fzf
+brew gauge
 brew gdbm
 brew gettext
 brew ghq
@@ -99,16 +104,17 @@ brew msgpack
 brew nkf
 brew oniguruma
 brew openssl
+brew openssl@1.1
 brew pango
 brew pcre
 brew pcre2
 brew peco
 brew pixman
 brew pkg-config
+brew pwgen
 brew pyenv
 brew pyenv-virtualenv
 brew python
-brew qt5
 brew readline
 brew reattach-to-user-namespace
 brew rename
@@ -128,6 +134,7 @@ brew xz
 brew zeromq
 brew zplug
 brew zsh
+brew neovim
 
 tap homebrew/dupes
 
@@ -141,7 +148,6 @@ brew htslib
 brew stacks
 
 tap neovim/neovim
-brew neovim
 
 tap rcmdnk/file
 brew brew-file
@@ -156,6 +162,9 @@ brew highway
 
 tap vitorgalvao/tiny-scripts
 brew cask-repair
+
+# Other Homebrew packages
+brew qt5
 
 # App Store applications
 appstore 682658836 GarageBand (10.1.5)
