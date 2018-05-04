@@ -2,7 +2,6 @@
 # tap repositories and their packages
 
 tap homebrew/core
-brew ansible
 brew autoconf
 brew automake
 brew awscli
@@ -16,9 +15,8 @@ brew fish
 brew fontconfig
 brew fontforge
 brew freetype
-brew fswatch
+brew fribidi
 brew fzf
-brew gauge
 brew gdbm
 brew gdk-pixbuf
 brew gettext
@@ -29,6 +27,7 @@ brew go
 brew gobject-introspection
 brew google-sparsehash
 brew gperftools
+brew graphite2
 brew harfbuzz
 brew haskell-stack
 brew hr
@@ -43,6 +42,7 @@ brew jq
 brew libevent
 brew libffi
 brew libidn
+brew libidn2
 brew libimobiledevice
 brew libnotify
 brew libplist
@@ -52,11 +52,13 @@ brew libtasn1
 brew libtermkey
 brew libtiff
 brew libtool
+brew libunistring
 brew libusb
 brew libuv
 brew libvterm
 brew libxml2
 brew libyaml
+brew luajit
 brew mas
 brew mecab
 brew mercurial
@@ -76,11 +78,11 @@ brew peco
 brew phantomjs
 brew pixman
 brew pkg-config
-brew pwgen
 brew pv
 brew pyenv
 brew pyenv-virtualenv
 brew python
+brew python@2
 brew qt
 brew readline
 brew reattach-to-user-namespace
@@ -88,6 +90,7 @@ brew redis
 brew ripgrep
 brew ruby-build
 brew sqlite
+brew tidy-html5
 brew tig
 brew tmux
 brew tree
@@ -96,12 +99,12 @@ brew unixodbc
 brew usbmuxd
 brew utf8proc
 brew watchman
+brew webp
 brew wget
 brew xz
 brew zeromq
 brew zplug
 brew zsh
-brew neovim
 
 tap homebrew/bundle
 
@@ -134,14 +137,12 @@ cask seil
 cask sketch
 cask spotify
 cask toggl
-cask unity
 cask vagrant
 cask vagrant-manager
 cask virtualbox
 cask visual-studio-code
 
 tap caskroom/versions
-cask google-chrome-canary
 
 tap argon/mas
 
@@ -164,7 +165,9 @@ tap vitorgalvao/tiny-scripts
 brew cask-repair
 
 # App Store applications
-appstore 748212890 Memory Cleaner (2.4)
-appstore 823766827 OneDrive (17.3.6798)
+appstore 682658836 GarageBand (10.2.0)
+appstore Install macOS High Sierra (13105)
+appstore 748212890 Memory Cleaner (2.4.4)
+appstore 823766827 OneDrive (17.3.7294)
 appstore 866773894 Quiver (3.0.6)
-appstore 557168941 Tweetbot (2.5.1)
+appstore 557168941 Tweetbot (2.5.4)
