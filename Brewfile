@@ -132,8 +132,6 @@ cask google-chrome
 cask google-japanese-ime
 cask intellij-idea
 cask iterm2
-cask karabiner
-cask seil
 cask sketch
 cask spotify
 cask toggl
@@ -166,8 +164,7 @@ brew cask-repair
 
 # App Store applications
 appstore 682658836 GarageBand (10.2.0)
-appstore Install macOS High Sierra (13105)
 appstore 748212890 Memory Cleaner (2.4.4)
-appstore 823766827 OneDrive (17.3.7294)
-appstore 866773894 Quiver (3.0.6)
+appstore 823766827 OneDrive (18.065.0329)
+appstore 866773894 Quiver (3.1.3)
 appstore 557168941 Tweetbot (2.5.4)
