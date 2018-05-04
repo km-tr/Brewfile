@@ -1,45 +1,6 @@
 
 # tap repositories and their packages
 
-tap argon/mas
-brew mas
-
-tap caskroom/cask
-cask adobe-creative-cloud
-cask alfred
-cask appcleaner
-cask bettertouchtool
-cask bitbar
-cask clipy
-cask cmd-eikana
-cask dash
-cask dropbox
-cask flux
-cask franz
-cask gitify
-cask google-chrome
-cask google-drive
-cask google-japanese-ime
-cask gyazo
-cask hyper
-cask intellij-idea
-cask iterm2
-cask licecap
-cask sketch
-cask spotify
-cask unity
-cask vagrant-manager
-cask vagrant
-cask virtualbox
-cask visual-studio-code
-
-tap caskroom/versions
-cask google-chrome-canary
-
-tap crazymykl/custom
-
-tap homebrew/bundle
-
 tap homebrew/core
 brew ansible
 brew autoconf
@@ -47,6 +8,7 @@ brew automake
 brew awscli
 brew cairo
 brew cmake
+brew composer
 brew czmq
 brew diff-so-fancy
 brew doxygen
@@ -58,6 +20,7 @@ brew fswatch
 brew fzf
 brew gauge
 brew gdbm
+brew gdk-pixbuf
 brew gettext
 brew ghq
 brew git
@@ -69,6 +32,7 @@ brew gperftools
 brew harfbuzz
 brew haskell-stack
 brew hr
+brew htslib
 brew hub
 brew icu4c
 brew imagemagick@6
@@ -78,7 +42,9 @@ brew jpeg
 brew jq
 brew libevent
 brew libffi
+brew libidn
 brew libimobiledevice
+brew libnotify
 brew libplist
 brew libpng
 brew libsodium
@@ -91,12 +57,14 @@ brew libuv
 brew libvterm
 brew libxml2
 brew libyaml
+brew mas
 brew mecab
 brew mercurial
 brew micro
 brew mono
 brew msgpack
 brew mysql
+brew neovim
 brew nkf
 brew oniguruma
 brew openssl
@@ -105,20 +73,21 @@ brew pango
 brew pcre
 brew pcre2
 brew peco
+brew phantomjs
 brew pixman
 brew pkg-config
 brew pwgen
+brew pv
 brew pyenv
 brew pyenv-virtualenv
 brew python
 brew qt
 brew readline
 brew reattach-to-user-namespace
+brew redis
 brew ripgrep
 brew ruby-build
 brew sqlite
-brew the_platinum_searcher
-brew tidy-html5
 brew tig
 brew tmux
 brew tree
@@ -134,18 +103,49 @@ brew zplug
 brew zsh
 brew neovim
 
+tap homebrew/bundle
+
 tap homebrew/dupes
 
 tap homebrew/php
-brew composer
-brew php70
-brew php70-xdebug
 
 tap homebrew/science
-brew htslib
-brew stacks
 
 tap homebrew/services
+
+tap caskroom/cask
+cask alfred
+cask appcleaner
+cask bettertouchtool
+cask bitbar
+cask clipy
+cask cmd-eikana
+cask dash
+cask docker
+cask dropbox
+cask franz
+cask gitify
+cask google-chrome
+cask google-japanese-ime
+cask intellij-idea
+cask iterm2
+cask karabiner
+cask seil
+cask sketch
+cask spotify
+cask toggl
+cask unity
+cask vagrant
+cask vagrant-manager
+cask virtualbox
+cask visual-studio-code
+
+tap caskroom/versions
+cask google-chrome-canary
+
+tap argon/mas
+
+tap crazymykl/custom
 
 tap neovim/neovim
 
@@ -163,13 +163,8 @@ brew highway
 tap vitorgalvao/tiny-scripts
 brew cask-repair
 
-# Other Homebrew packages
-brew qt5
-
 # App Store applications
-appstore 682658836 GarageBand (10.2.0)
 appstore 748212890 Memory Cleaner (2.4)
 appstore 823766827 OneDrive (17.3.6798)
-appstore 568494494 Pocket (1.6.2)
 appstore 866773894 Quiver (3.0.6)
 appstore 557168941 Tweetbot (2.5.1)
